@@ -25,4 +25,4 @@ mvn clean test
 
 ## Evidencia de pruebas en verde
 
-![Maven test success](docs/mvn-test-success.png)
+![Test aprobado](docs/mvn-test-success.png)
