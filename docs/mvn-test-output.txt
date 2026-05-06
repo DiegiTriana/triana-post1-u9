@@ -1,0 +1,96 @@
+%TESTC  6 v2
+%TSTTREE2,com.universidad.productosservice.service.ProductoServiceImplTest,true,9,false,1,ProductoServiceImplTest,,[engine:junit-jupiter]/[class:com.universidad.productosservice.service.ProductoServiceImplTest]
+%TSTTREE3,crear_stockInvalido_lanzaIllegalArgumentException(com.universidad.productosservice.service.ProductoServiceImplTest),true,0,false,2,crear_stockInvalido_lanzaIllegalArgumentException(Integer),java.lang.Integer,[engine:junit-jupiter]/[class:com.universidad.productosservice.service.ProductoServiceImplTest]/[test-template:crear_stockInvalido_lanzaIllegalArgumentException(java.lang.Integer)]
+%TSTTREE4,buscarPorId_existente_retornaProducto(com.universidad.productosservice.service.ProductoServiceImplTest),false,1,false,2,buscarPorId_existente_retornaProducto(),,[engine:junit-jupiter]/[class:com.universidad.productosservice.service.ProductoServiceImplTest]/[method:buscarPorId_existente_retornaProducto()]
+%TSTTREE5,buscarPorId_noExistente_lanzaRuntimeException(com.universidad.productosservice.service.ProductoServiceImplTest),false,1,false,2,buscarPorId_noExistente_lanzaRuntimeException(),,[engine:junit-jupiter]/[class:com.universidad.productosservice.service.ProductoServiceImplTest]/[method:buscarPorId_noExistente_lanzaRuntimeException()]
+%TSTTREE6,crear_nombreConEspacios_guardaNombreNormalizado(com.universidad.productosservice.service.ProductoServiceImplTest),false,1,false,2,crear_nombreConEspacios_guardaNombreNormalizado(),,[engine:junit-jupiter]/[class:com.universidad.productosservice.service.ProductoServiceImplTest]/[method:crear_nombreConEspacios_guardaNombreNormalizado()]
+%TSTTREE7,crear_nombreInvalido_lanzaIllegalArgumentException(com.universidad.productosservice.service.ProductoServiceImplTest),true,0,false,2,crear_nombreInvalido_lanzaIllegalArgumentException(String),java.lang.String,[engine:junit-jupiter]/[class:com.universidad.productosservice.service.ProductoServiceImplTest]/[test-template:crear_nombreInvalido_lanzaIllegalArgumentException(java.lang.String)]
+%TSTTREE8,eliminar_productoExistente_llamaDeleteById(com.universidad.productosservice.service.ProductoServiceImplTest),false,1,false,2,eliminar_productoExistente_llamaDeleteById(),,[engine:junit-jupiter]/[class:com.universidad.productosservice.service.ProductoServiceImplTest]/[method:eliminar_productoExistente_llamaDeleteById()]
+%TSTTREE9,crear_datosValidos_retornaProductoGuardado(com.universidad.productosservice.service.ProductoServiceImplTest),false,1,false,2,crear_datosValidos_retornaProductoGuardado(),,[engine:junit-jupiter]/[class:com.universidad.productosservice.service.ProductoServiceImplTest]/[method:crear_datosValidos_retornaProductoGuardado()]
+%TSTTREE10,actualizarStock_existente_retornaProductoActualizado(com.universidad.productosservice.service.ProductoServiceImplTest),false,1,false,2,actualizarStock_existente_retornaProductoActualizado(),,[engine:junit-jupiter]/[class:com.universidad.productosservice.service.ProductoServiceImplTest]/[method:actualizarStock_existente_retornaProductoActualizado()]
+%TSTTREE11,crear_precioInvalido_lanzaIllegalArgumentException(com.universidad.productosservice.service.ProductoServiceImplTest),true,0,false,2,crear_precioInvalido_lanzaIllegalArgumentException(double),double,[engine:junit-jupiter]/[class:com.universidad.productosservice.service.ProductoServiceImplTest]/[test-template:crear_precioInvalido_lanzaIllegalArgumentException(double)]
+%TSTTREE12,crear_stockInvalido_lanzaIllegalArgumentException(com.universidad.productosservice.service.ProductoServiceImplTest),false,1,true,3,[1] stock=null,java.lang.Integer,[engine:junit-jupiter]/[class:com.universidad.productosservice.service.ProductoServiceImplTest]/[test-template:crear_stockInvalido_lanzaIllegalArgumentException(java.lang.Integer)]/[test-template-invocation:#1]
+%TESTS  12,crear_stockInvalido_lanzaIllegalArgumentException(com.universidad.productosservice.service.ProductoServiceImplTest)
+
+%TESTE  12,crear_stockInvalido_lanzaIllegalArgumentException(com.universidad.productosservice.service.ProductoServiceImplTest)
+
+%TSTTREE13,crear_stockInvalido_lanzaIllegalArgumentException(com.universidad.productosservice.service.ProductoServiceImplTest),false,1,true,3,[2] stock=-1,java.lang.Integer,[engine:junit-jupiter]/[class:com.universidad.productosservice.service.ProductoServiceImplTest]/[test-template:crear_stockInvalido_lanzaIllegalArgumentException(java.lang.Integer)]/[test-template-invocation:#2]
+%TESTS  13,crear_stockInvalido_lanzaIllegalArgumentException(com.universidad.productosservice.service.ProductoServiceImplTest)
+
+%TESTE  13,crear_stockInvalido_lanzaIllegalArgumentException(com.universidad.productosservice.service.ProductoServiceImplTest)
+
+%TSTTREE14,crear_stockInvalido_lanzaIllegalArgumentException(com.universidad.productosservice.service.ProductoServiceImplTest),false,1,true,3,[3] stock=-100,java.lang.Integer,[engine:junit-jupiter]/[class:com.universidad.productosservice.service.ProductoServiceImplTest]/[test-template:crear_stockInvalido_lanzaIllegalArgumentException(java.lang.Integer)]/[test-template-invocation:#3]
+%TESTS  14,crear_stockInvalido_lanzaIllegalArgumentException(com.universidad.productosservice.service.ProductoServiceImplTest)
+
+%TESTE  14,crear_stockInvalido_lanzaIllegalArgumentException(com.universidad.productosservice.service.ProductoServiceImplTest)
+
+%TESTS  4,buscarPorId_existente_retornaProducto(com.universidad.productosservice.service.ProductoServiceImplTest)
+
+%TESTE  4,buscarPorId_existente_retornaProducto(com.universidad.productosservice.service.ProductoServiceImplTest)
+
+%TESTS  5,buscarPorId_noExistente_lanzaRuntimeException(com.universidad.productosservice.service.ProductoServiceImplTest)
+
+%TESTE  5,buscarPorId_noExistente_lanzaRuntimeException(com.universidad.productosservice.service.ProductoServiceImplTest)
+
+%TESTS  6,crear_nombreConEspacios_guardaNombreNormalizado(com.universidad.productosservice.service.ProductoServiceImplTest)
+
+%TESTE  6,crear_nombreConEspacios_guardaNombreNormalizado(com.universidad.productosservice.service.ProductoServiceImplTest)
+
+%TSTTREE15,crear_nombreInvalido_lanzaIllegalArgumentException(com.universidad.productosservice.service.ProductoServiceImplTest),false,1,true,7,[1] nombre=null,java.lang.String,[engine:junit-jupiter]/[class:com.universidad.productosservice.service.ProductoServiceImplTest]/[test-template:crear_nombreInvalido_lanzaIllegalArgumentException(java.lang.String)]/[test-template-invocation:#1]
+%TESTS  15,crear_nombreInvalido_lanzaIllegalArgumentException(com.universidad.productosservice.service.ProductoServiceImplTest)
+
+%TESTE  15,crear_nombreInvalido_lanzaIllegalArgumentException(com.universidad.productosservice.service.ProductoServiceImplTest)
+
+%TSTTREE16,crear_nombreInvalido_lanzaIllegalArgumentException(com.universidad.productosservice.service.ProductoServiceImplTest),false,1,true,7,[2] nombre=,java.lang.String,[engine:junit-jupiter]/[class:com.universidad.productosservice.service.ProductoServiceImplTest]/[test-template:crear_nombreInvalido_lanzaIllegalArgumentException(java.lang.String)]/[test-template-invocation:#2]
+%TESTS  16,crear_nombreInvalido_lanzaIllegalArgumentException(com.universidad.productosservice.service.ProductoServiceImplTest)
+
+%TESTE  16,crear_nombreInvalido_lanzaIllegalArgumentException(com.universidad.productosservice.service.ProductoServiceImplTest)
+
+%TSTTREE17,crear_nombreInvalido_lanzaIllegalArgumentException(com.universidad.productosservice.service.ProductoServiceImplTest),false,1,true,7,[3] nombre=   ,java.lang.String,[engine:junit-jupiter]/[class:com.universidad.productosservice.service.ProductoServiceImplTest]/[test-template:crear_nombreInvalido_lanzaIllegalArgumentException(java.lang.String)]/[test-template-invocation:#3]
+%TESTS  17,crear_nombreInvalido_lanzaIllegalArgumentException(com.universidad.productosservice.service.ProductoServiceImplTest)
+
+%TESTE  17,crear_nombreInvalido_lanzaIllegalArgumentException(com.universidad.productosservice.service.ProductoServiceImplTest)
+
+%TSTTREE18,crear_nombreInvalido_lanzaIllegalArgumentException(com.universidad.productosservice.service.ProductoServiceImplTest),false,1,true,7,[4] nombre=  ,java.lang.String,[engine:junit-jupiter]/[class:com.universidad.productosservice.service.ProductoServiceImplTest]/[test-template:crear_nombreInvalido_lanzaIllegalArgumentException(java.lang.String)]/[test-template-invocation:#4]
+%TESTS  18,crear_nombreInvalido_lanzaIllegalArgumentException(com.universidad.productosservice.service.ProductoServiceImplTest)
+
+%TESTE  18,crear_nombreInvalido_lanzaIllegalArgumentException(com.universidad.productosservice.service.ProductoServiceImplTest)
+
+%TSTTREE19,crear_nombreInvalido_lanzaIllegalArgumentException(com.universidad.productosservice.service.ProductoServiceImplTest),false,1,true,7,[5] nombre= ,java.lang.String,[engine:junit-jupiter]/[class:com.universidad.productosservice.service.ProductoServiceImplTest]/[test-template:crear_nombreInvalido_lanzaIllegalArgumentException(java.lang.String)]/[test-template-invocation:#5]
+%TESTS  19,crear_nombreInvalido_lanzaIllegalArgumentException(com.universidad.productosservice.service.ProductoServiceImplTest)
+
+%TESTE  19,crear_nombreInvalido_lanzaIllegalArgumentException(com.universidad.productosservice.service.ProductoServiceImplTest)
+
+%TESTS  8,eliminar_productoExistente_llamaDeleteById(com.universidad.productosservice.service.ProductoServiceImplTest)
+
+%TESTE  8,eliminar_productoExistente_llamaDeleteById(com.universidad.productosservice.service.ProductoServiceImplTest)
+
+%TESTS  9,crear_datosValidos_retornaProductoGuardado(com.universidad.productosservice.service.ProductoServiceImplTest)
+
+%TESTE  9,crear_datosValidos_retornaProductoGuardado(com.universidad.productosservice.service.ProductoServiceImplTest)
+
+%TESTS  10,actualizarStock_existente_retornaProductoActualizado(com.universidad.productosservice.service.ProductoServiceImplTest)
+
+%TESTE  10,actualizarStock_existente_retornaProductoActualizado(com.universidad.productosservice.service.ProductoServiceImplTest)
+
+%TSTTREE20,crear_precioInvalido_lanzaIllegalArgumentException(com.universidad.productosservice.service.ProductoServiceImplTest),false,1,true,11,[1] precio=0.0,double,[engine:junit-jupiter]/[class:com.universidad.productosservice.service.ProductoServiceImplTest]/[test-template:crear_precioInvalido_lanzaIllegalArgumentException(double)]/[test-template-invocation:#1]
+%TESTS  20,crear_precioInvalido_lanzaIllegalArgumentException(com.universidad.productosservice.service.ProductoServiceImplTest)
+
+%TESTE  20,crear_precioInvalido_lanzaIllegalArgumentException(com.universidad.productosservice.service.ProductoServiceImplTest)
+
+%TSTTREE21,crear_precioInvalido_lanzaIllegalArgumentException(com.universidad.productosservice.service.ProductoServiceImplTest),false,1,true,11,[2] precio=-1.0,double,[engine:junit-jupiter]/[class:com.universidad.productosservice.service.ProductoServiceImplTest]/[test-template:crear_precioInvalido_lanzaIllegalArgumentException(double)]/[test-template-invocation:#2]
+%TESTS  21,crear_precioInvalido_lanzaIllegalArgumentException(com.universidad.productosservice.service.ProductoServiceImplTest)
+
+%TESTE  21,crear_precioInvalido_lanzaIllegalArgumentException(com.universidad.productosservice.service.ProductoServiceImplTest)
+
+%TSTTREE22,crear_precioInvalido_lanzaIllegalArgumentException(com.universidad.productosservice.service.ProductoServiceImplTest),false,1,true,11,[3] precio=-100.0,double,[engine:junit-jupiter]/[class:com.universidad.productosservice.service.ProductoServiceImplTest]/[test-template:crear_precioInvalido_lanzaIllegalArgumentException(double)]/[test-template-invocation:#3]
+%TESTS  22,crear_precioInvalido_lanzaIllegalArgumentException(com.universidad.productosservice.service.ProductoServiceImplTest)
+
+%TESTE  22,crear_precioInvalido_lanzaIllegalArgumentException(com.universidad.productosservice.service.ProductoServiceImplTest)
+
+%TSTTREE23,crear_precioInvalido_lanzaIllegalArgumentException(com.universidad.productosservice.service.ProductoServiceImplTest),false,1,true,11,[4] precio=-0.01,double,[engine:junit-jupiter]/[class:com.universidad.productosservice.service.ProductoServiceImplTest]/[test-template:crear_precioInvalido_lanzaIllegalArgumentException(double)]/[test-template-invocation:#4]
+%TESTS  23,crear_precioInvalido_lanzaIllegalArgumentException(com.universidad.productosservice.service.ProductoServiceImplTest)
+
+%TESTE  23,crear_precioInvalido_lanzaIllegalArgumentException(com.universidad.productosservice.service.ProductoServiceImplTest)
+
+%RUNTIME1308
