@@ -25,4 +25,4 @@ mvn clean test
 
 ## Evidencia de pruebas en verde
 
-![Test aprobado](docs/mvn-test-success.png)
+![Imagen](docs/mvn-test-succes.png)
